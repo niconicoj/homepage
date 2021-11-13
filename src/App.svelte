@@ -6,7 +6,7 @@
 
 <main>
   <div class="col picture">
-    <img alt="keyboard cat" src="catkeyboard.png" />
+    <img alt="keyboard cat" src="catkeyboard.webp" />
   </div>
   <div class="col content">
     <Header />
