@@ -486,6 +486,10 @@ var app = (function () {
                     label: "stackoverflow",
                     url: "https://github.com"
                 },
+                {
+                    label: "archwiki",
+                    url: "https://wiki.archlinux.org/"
+                }
             ]
         },
         {
@@ -525,6 +529,10 @@ var app = (function () {
                 {
                     label: "linkedin",
                     url: "https://linkedin.com"
+                },
+                {
+                    label: "gmail",
+                    url: "https://mail.google.com"
                 }
             ]
         },

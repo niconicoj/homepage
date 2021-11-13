@@ -26,7 +26,10 @@ export const categories: LinkCategory[] = [
         label: "stackoverflow",
         url: "https://github.com"
       },
-
+      {
+        label: "archwiki",
+        url: "https://wiki.archlinux.org/"
+      }
 
     ]
   },
@@ -67,6 +70,10 @@ export const categories: LinkCategory[] = [
       {
         label: "linkedin",
         url: "https://linkedin.com"
+      },
+      {
+        label: "gmail",
+        url: "https://mail.google.com"
       }
     ]
   },
