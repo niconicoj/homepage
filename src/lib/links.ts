@@ -1,7 +1,7 @@
 export interface LinkCategory {
   label: string;
   headerColor: string;
-  links: Link[]
+  links: Link[];
 }
 
 export interface Link {
@@ -16,22 +16,25 @@ export const categories: LinkCategory[] = [
     links: [
       {
         label: "github",
-        url: "https://github.com"
+        url: "https://github.com",
       },
       {
         label: "personal gitlab",
-        url: "https://gitlab.niconico.io"
+        url: "https://gitlab.niconico.io",
       },
       {
         label: "stackoverflow",
-        url: "https://github.com"
+        url: "https://stackoverflow.com",
       },
       {
         label: "archwiki",
-        url: "https://wiki.archlinux.org/"
-      }
-
-    ]
+        url: "https://wiki.archlinux.org/",
+      },
+      {
+        label: "awesome-rust",
+        url: "https://github.com/rust-unofficial/awesome-rust",
+      },
+    ],
   },
   {
     label: "~/news",
@@ -39,21 +42,29 @@ export const categories: LinkCategory[] = [
     links: [
       {
         label: "this week in rust",
-        url: "https://this-week-in-rust.org"
+        url: "https://this-week-in-rust.org",
       },
       {
         label: "medium",
-        url: "https://github.com"
+        url: "https://medium.com",
       },
       {
         label: "baby steps",
-        url: "https://smallcultfollowing.com/babysteps/"
+        url: "https://smallcultfollowing.com/babysteps/",
       },
       {
         label: "archlinux",
-        url: "https://archlinux.org"
-      }
-    ]
+        url: "https://archlinux.org",
+      },
+      {
+        label: "lwn",
+        url: "https://lwn.net/",
+      },
+      {
+        label: "phoronix",
+        url: "https://phoronix.com/",
+      },
+    ],
   },
   {
     label: "~/social",
@@ -61,21 +72,21 @@ export const categories: LinkCategory[] = [
     links: [
       {
         label: "twitter",
-        url: "https://twitter.com"
+        url: "https://twitter.com",
       },
       {
         label: "reddit",
-        url: "https://reddit.com"
+        url: "https://reddit.com",
       },
       {
         label: "linkedin",
-        url: "https://linkedin.com"
+        url: "https://linkedin.com",
       },
       {
         label: "gmail",
-        url: "https://mail.google.com"
-      }
-    ]
+        url: "https://mail.google.com",
+      },
+    ],
   },
   {
     label: "~/fun",
@@ -83,16 +94,16 @@ export const categories: LinkCategory[] = [
     links: [
       {
         label: "youtube",
-        url: "https://youtube.com"
+        url: "https://youtube.com",
       },
       {
         label: "twitch",
-        url: "https://twitch.tv"
+        url: "https://twitch.tv",
       },
       {
         label: "chess",
-        url: "https://chess.com"
-      }
-    ]
-  }
+        url: "https://chess.com",
+      },
+    ],
+  },
 ];
