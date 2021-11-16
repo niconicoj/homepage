@@ -34,6 +34,10 @@ export const categories: LinkCategory[] = [
         label: "awesome-rust",
         url: "https://github.com/rust-unofficial/awesome-rust",
       },
+      {
+        label: "crafting interpreters",
+        url: "https://craftinginterpreters.com/contents.html",
+      },
     ],
   },
   {
