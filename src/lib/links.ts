@@ -38,6 +38,10 @@ export const categories: LinkCategory[] = [
         label: "crafting interpreters",
         url: "https://craftinginterpreters.com/contents.html",
       },
+      {
+        label: "Udemy",
+        url: "https://udemy.com",
+      },
     ],
   },
   {
