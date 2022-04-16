@@ -494,6 +494,14 @@ var app = (function () {
                     label: "awesome-rust",
                     url: "https://github.com/rust-unofficial/awesome-rust",
                 },
+                {
+                    label: "crafting interpreters",
+                    url: "https://craftinginterpreters.com/contents.html",
+                },
+                {
+                    label: "Udemy",
+                    url: "https://udemy.com",
+                },
             ],
         },
         {
@@ -594,7 +602,7 @@ var app = (function () {
     			a = element("a");
     			t = text(t_value);
     			attr_dev(a, "href", /*link*/ ctx[3].url);
-    			attr_dev(a, "class", "link svelte-10hsvpz");
+    			attr_dev(a, "class", "link svelte-w1988v");
     			add_location(a, file$4, 10, 8, 301);
     		},
     		m: function mount(target, anchor) {
@@ -647,9 +655,9 @@ var app = (function () {
 
     			t2 = space();
     			attr_dev(div0, "style", "color: " + /*category*/ ctx[0].headerColor);
-    			attr_dev(div0, "class", "title svelte-10hsvpz");
+    			attr_dev(div0, "class", "title svelte-w1988v");
     			add_location(div0, file$4, 6, 6, 157);
-    			attr_dev(div1, "class", "col svelte-10hsvpz");
+    			attr_dev(div1, "class", "col svelte-w1988v");
     			add_location(div1, file$4, 5, 4, 133);
     		},
     		m: function mount(target, anchor) {
@@ -724,7 +732,7 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div, "class", "container svelte-10hsvpz");
+    			attr_dev(div, "class", "container svelte-w1988v");
     			add_location(div, file$4, 3, 0, 72);
     		},
     		l: function claim(nodes) {
@@ -972,9 +980,9 @@ var app = (function () {
     			h1.textContent = "HOME";
     			t1 = space();
     			create_component(clock.$$.fragment);
-    			attr_dev(h1, "class", "svelte-ixqp2i");
+    			attr_dev(h1, "class", "svelte-1hb7tv6");
     			add_location(h1, file$2, 5, 2, 69);
-    			attr_dev(header, "class", "svelte-ixqp2i");
+    			attr_dev(header, "class", "svelte-1hb7tv6");
     			add_location(header, file$2, 4, 0, 58);
     		},
     		l: function claim(nodes) {
