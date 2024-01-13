@@ -9,8 +9,11 @@
   {:then quote}
     <div>{quote.content}</div>
     <div class="author">└╴{quote.author}</div>
-  {:catch error}
-    <div>{error.message}</div>
+  {:catch}
+    <div>
+      The quiet shade<br />Across old bark<br />In the ancient glade<br />It's
+      always dark
+    </div>
   {/await}
 </quote>
 
