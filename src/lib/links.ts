@@ -83,6 +83,10 @@ export const categories: LinkCategory[] = [
         url: "https://twitter.com",
       },
       {
+        label: "bluesky",
+        url: "https://bsky.app",
+      },
+      {
         label: "reddit",
         url: "https://reddit.com",
       },
