@@ -27,16 +27,12 @@ export const categories: LinkCategory[] = [
         url: "https://stackoverflow.com",
       },
       {
-        label: "archwiki",
+        label: "Archwiki",
         url: "https://wiki.archlinux.org/",
       },
       {
         label: "awesome-rust",
         url: "https://github.com/rust-unofficial/awesome-rust",
-      },
-      {
-        label: "crafting interpreters",
-        url: "https://craftinginterpreters.com/contents.html",
       },
       {
         label: "Udemy",
@@ -49,27 +45,27 @@ export const categories: LinkCategory[] = [
     headerColor: "#d699b6",
     links: [
       {
-        label: "this week in rust",
+        label: "This Week in Rust",
         url: "https://this-week-in-rust.org",
       },
       {
-        label: "medium",
-        url: "https://medium.com",
+        label: "ithout.boats",
+        url: "https://without.boats",
       },
       {
-        label: "baby steps",
+        label: "Baby steps",
         url: "https://smallcultfollowing.com/babysteps/",
       },
       {
-        label: "archlinux",
+        label: "Archlinux",
         url: "https://archlinux.org",
       },
       {
-        label: "lwn",
+        label: "Lwn",
         url: "https://lwn.net/",
       },
       {
-        label: "phoronix",
+        label: "Phoronix",
         url: "https://phoronix.com/",
       },
     ],
@@ -79,23 +75,23 @@ export const categories: LinkCategory[] = [
     headerColor: "#a7c080",
     links: [
       {
-        label: "twitter",
+        label: "Twitter",
         url: "https://twitter.com",
       },
       {
-        label: "bluesky",
+        label: "Bluesky",
         url: "https://bsky.app",
       },
       {
-        label: "reddit",
+        label: "Reddit",
         url: "https://reddit.com",
       },
       {
-        label: "linkedin",
+        label: "Linkedin",
         url: "https://linkedin.com",
       },
       {
-        label: "gmail",
+        label: "Gmail",
         url: "https://mail.google.com",
       },
     ],
@@ -105,15 +101,19 @@ export const categories: LinkCategory[] = [
     headerColor: "#dbbc7f",
     links: [
       {
-        label: "youtube",
+        label: "Youtube",
         url: "https://youtube.com",
       },
+            {
+        label: "Netflix",
+        url: "https://netflix.com",
+      },
       {
-        label: "twitch",
+        label: "Twitch",
         url: "https://twitch.tv",
       },
       {
-        label: "chess",
+        label: "Chess",
         url: "https://chess.com",
       },
     ],
