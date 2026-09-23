@@ -49,7 +49,7 @@ export const categories: LinkCategory[] = [
         url: "https://this-week-in-rust.org",
       },
       {
-        label: "ithout.boats",
+        label: "Without.boats",
         url: "https://without.boats",
       },
       {
@@ -75,10 +75,6 @@ export const categories: LinkCategory[] = [
     headerColor: "#a7c080",
     links: [
       {
-        label: "Twitter",
-        url: "https://twitter.com",
-      },
-      {
         label: "Bluesky",
         url: "https://bsky.app",
       },
@@ -101,16 +97,8 @@ export const categories: LinkCategory[] = [
     headerColor: "#dbbc7f",
     links: [
       {
-        label: "Youtube",
-        url: "https://youtube.com",
-      },
-            {
         label: "Netflix",
         url: "https://netflix.com",
-      },
-      {
-        label: "Twitch",
-        url: "https://twitch.tv",
       },
       {
         label: "Chess",
